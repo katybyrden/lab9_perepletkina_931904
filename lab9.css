@@ -1,0 +1,54 @@
+table
+{
+	border: solid SkyBlue 5px;
+	padding: 10px;
+	z-index:0;
+}
+
+td
+{
+	position: left;
+	width:70px;
+	height:70px;
+	padding:3px;
+}
+
+button
+{
+	text-align:middle;
+	font-size: xx-large;
+	height:100%;
+	width:100%;
+	border:2px solid Silver;
+	background: linear-gradient(to bottom, white, #D3D3D3);
+}
+
+.numberline
+{
+	border:1px solid black;
+	height:50px;
+	width:380px;
+	font-family: Arial;
+	position:relative;
+	overflow-x: auto;
+}
+
+.grayNumb
+{
+	height:50px;
+	width:auto;
+	font-size: xx-large;
+	color:Silver;
+	position:absolute;
+	right:0px;
+	white-space: nowrap;
+}
+
+.blackNumb
+{
+	height:50px;
+	width:auto;
+	float:right;
+	font-size: xx-large;
+	color:black;
+}
